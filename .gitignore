@@ -1,0 +1,46 @@
+# WordPress Core and Generated Files
+/wp-content/uploads/*
+/wp-content/cache/*
+/wp-content/upgrade/*
+/wp-content/backup-db/*
+/wp-content/backups/*
+/wp-content/wp-cache-config.php
+/wp-content/advanced-cache.php
+/wp-content/object-cache.php
+/wp-content/db.php
+/sitemap.xml
+/sitemap.xml.gz
+
+# Configuration Files with Sensitive Data
+wp-config.php
+/wp-config.php
+/wp-config-local.php
+
+# Environment and IDE Files
+.env
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Dependency Directories
+/vendor/
+/node_modules/
+
+# Debugging and Testing Files
+/error_log
+debug.log
+*.sql
+*.sql.gz
+
+# Temporary Files
+*.bak
+*.tmp
+*.swp
+
+# Local Development Files
+local-config.php
+wp-cli.local.yml
